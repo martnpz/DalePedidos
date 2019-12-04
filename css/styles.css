@@ -1,0 +1,280 @@
+@font-face {
+    font-family: nexaBold;
+    src: url('../img/NexaBold.otf');
+}
+
+@font-face {
+    font-family: nexaLight;
+    src: url('../img/NexaLight.otf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nexaBold;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+#hamburgerMenu{
+    display: none;
+}
+
+#menuOpen{
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    z-index: 2;
+    position: fixed;
+    right: 15%;
+    top: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#menuOpen span{
+    display: block;
+    width: 45px;
+    height: 5px;
+    border-radius: 60px;
+    background: black;
+    z-index: 3;
+    transform-origin: 0px 100%;
+    transition: .5s ease-out;
+}
+
+#menuDeploy{
+    height: 50%;
+    width: 100%;
+    background:whitesmoke;
+    position: fixed;
+    top: -100%;
+    left: 0;
+    border-radius: 0 0 16px 16px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 1s ease;
+    box-shadow: 0 6px 18px 0px rgba(36, 6, 6, 0.15);
+}
+
+.menuExpanded #menuDeploy{
+    top: 0;
+}
+
+.menuExpanded span:nth-child(1){
+    transform: rotate(45deg) translate(-2px, 1px);
+}
+
+.menuExpanded span:nth-child(2){
+    transform: rotate(45deg) translate(-3px, 6px);
+    transform-origin: center !important;
+    opacity: 0;
+}
+
+.menuExpanded span:nth-child(3){
+    transform: rotate(-45deg) translate(-3px, 3px);
+}
+
+#hamburgerLinks{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#hamburgerLinks a{
+    color: black;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 20px 400px 20px 400px;
+    border-bottom: 2px solid black;
+    border-color: rgb(202, 202, 202);
+}
+
+#hamburgerLinks a:last-child{
+    border-bottom: none;
+    color: #FF1D25 !important;
+}
+
+.header{
+    margin-left: 15%;
+    margin-top: 2%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.links{
+    margin-right: 15%;
+    right: 0;
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+}
+
+.links a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: black;
+}
+
+.singUp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 120px;
+    border-radius: 8px;
+    background: #FF1D25;
+    box-shadow: 0 6px 18px 0px rgba(36, 6, 6, 0.15);
+}
+
+.singUp:hover{
+    background: rgb(252, 96, 101);
+    transition: 0.4s;
+}
+
+.singUp:focus{
+    transition: 0.4s;
+    border: none;
+    box-shadow: 0 4px 14px 0px rgba(36, 6, 6, 0.26);
+}
+
+h1{
+    font-family: nexaBold;
+    font-size: 3.3em;
+    padding: 250px 15% 100px;
+}
+
+h2{
+    font-size: 2.8em;
+}
+
+.endTitle{
+    margin-top: 15%;
+}
+
+.endTitle h3{
+    font-size: 2.8em;
+}
+
+.endTitle span{
+    color: #FF1D25;
+}
+
+.endTitle div{
+    margin-top: 5%
+}
+
+.footer{
+    margin-top: 20%;
+    position: relative;
+    bottom: 0;
+    padding: 85px 15%;
+    background: #E9E9E9;
+}
+
+.red{
+    display: inline-flex;
+    background: red;
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    margin-right: 1%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.red i{
+    font-size: 1.6em;
+    color: white;
+    text-align: center;
+    line-height: 2;
+}
+
+.directions{
+    font-size: 1.2em;
+    margin-top: 3%;
+    color: #888888;
+    display: flex;
+    justify-content: space-between;
+}
+
+.directions p:nth-child(1){
+    width: 30%;
+    max-width: 250px;
+}
+
+.directions p:nth-child(2){
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.directions p:nth-child(3){
+    width: 30%;
+    max-width: 250px;
+}
+
+.info p{
+    color: #888888;
+    text-align: end;
+    width: 30%;
+    font-family: NexaBold;
+    font-size: 1.2em;
+    position: absolute;
+    right: 15%;
+    top: 270px;
+}
+
+@media (max-width: 1100px){
+    h1{
+        font-size: 2.3em;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+
+    .circles:nth-child(1){
+        display: none;
+    }
+
+    .circles:nth-child(4){
+        display: none;
+    }
+}
+
+@media (max-width: 800px){
+
+    .logoIndex{
+        z-index: 2;
+        top: 2%;
+        position: fixed;
+        left: 15%;
+    }
+    .links{
+        display: none;
+    }
+
+    #hamburgerMenu{
+        display: block;
+    }
+
+
+}

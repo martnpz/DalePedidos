@@ -1,0 +1,156 @@
+.arrow{
+    width: 7vw;
+    margin-top: 8%;
+}
+
+.first{
+    margin-top: 15%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 15%;
+}
+
+.first2{
+    width: 40%;
+}
+
+.first2 p{
+    font-size: 1.8em;
+    text-align: start;
+    font-family: NexaLight;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+.first3{
+    position: relative;
+}
+
+.first3 img{
+    right: 0;
+    width: 40vw;
+    box-shadow: 0 6px 18px 0px rgba(36, 6, 6, 0.15);
+}
+
+.second{
+    margin-top: 15%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 15%;
+}
+
+.second2{
+    width: 40%;
+    text-align: end;
+}
+
+.second2 p{
+    font-size: 1.8em;
+    text-align: end;
+    font-family: NexaLight;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+.second3{
+    position: relative;
+}
+
+.second3 img{
+    right: 0;
+    width: 40vw;
+    box-shadow: 0 6px 18px 0px rgba(36, 6, 6, 0.15);
+}
+
+.third{
+    margin-top: 15%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 15%;
+}
+
+.third2{
+    width: 40%;
+}
+
+.third2 p{
+    font-size: 1.8em;
+    text-align: start;
+    font-family: NexaLight;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+.third3{
+    position: relative;
+}
+
+.third3 img{
+    right: 0;
+    width: 40vw;
+    box-shadow: 0 6px 18px 0px rgba(36, 6, 6, 0.15);
+}
+
+.four{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 15%;
+    padding: 100px 15%;
+    position: relative;
+}
+
+.four p{
+    font-family: NexaLight;
+    font-size: 1.8em;
+}
+
+.four2{
+    width: 550px;
+    margin-bottom: 8%;
+}
+
+.four3 img{
+    width: 40vw;
+}
+
+.circle{
+    position: relative;
+    margin-top: -6%;
+    height: 500px;
+}
+
+.circles{
+    position: absolute;
+    border-radius: 50%;
+    width: 35vw;
+    height: 35vw;
+}
+
+.circles:nth-child(1){
+    left: -120px;
+    background:rgba(255, 105, 110, 0.31);
+}
+
+.circles:nth-child(2){
+    top: 100px;
+    left: 150px;
+    background:rgba(196, 67, 70, 0.39);
+}
+
+.circles:nth-child(3){
+    top: 100px;
+    right: 150px;
+    z-index: 1;
+    background:rgba(196, 67, 70, 0.39);
+}
+
+.circles:nth-child(4){
+    right: -120px;
+    background:rgba(255, 105, 110, 0.31);
+}
+

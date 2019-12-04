@@ -1,0 +1,36 @@
+#hamburgerMenu{
+    display: none;
+}
+
+#menuOpen{
+    width: 50px;
+    height: 50px;
+    background: black;
+    display: inline-block;
+    z-index: 2;
+    position: fixed;
+    right: 15%;
+    top: 2%;
+}
+
+#menuDeploy{
+    height: 40vw;
+    width: 100%;
+    background: grey;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    border-radius: 0 0 16px 16px;
+    z-index: 1;
+    filter: opacity(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hamburgerLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
