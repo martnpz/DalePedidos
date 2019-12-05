@@ -276,5 +276,12 @@ h2{
         display: block;
     }
 
+    .circle3, .circle3a, .circle3b{
+        display: none;
+    } 
+
+    .circle2, .circle2a{
+        display: none;
+    }
 
 }
