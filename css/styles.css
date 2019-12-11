@@ -21,6 +21,10 @@ html {
     overflow-x: hidden;
 }
 
+#mobile{
+    display: none;
+}
+
 #hamburgerMenu{
     display: none;
 }
@@ -42,8 +46,8 @@ html {
 
 #menuOpen span{
     display: block;
-    width: 45px;
-    height: 5px;
+    width: 35px;
+    height: 2px;
     border-radius: 60px;
     background: black;
     z-index: 3;
@@ -83,7 +87,7 @@ html {
 }
 
 .menuExpanded span:nth-child(3){
-    transform: rotate(-45deg) translate(-3px, 3px);
+    transform: rotate(-45deg) translate(-2px, 1px);
 }
 
 #hamburgerLinks{
@@ -181,7 +185,7 @@ h2{
 
 .footer{
     margin-top: 20%;
-    position: relative;
+    position: absolute;
     bottom: 0;
     padding: 85px 15%;
     background: #E9E9E9;
@@ -272,7 +276,8 @@ h2{
         display: none;
     }
 
-    #hamburgerMenu{
+    #hamburgerMenu,
+    #mobile{
         display: block;
     }
 
@@ -284,4 +289,7 @@ h2{
         display: none;
     }
 
+    .web{
+        display: none;
+    }
 }

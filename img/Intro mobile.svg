@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="812" viewBox="0 0 375 812">
+  <defs>
+    <clipPath id="clip-iPhone_X_XS_11">
+      <rect width="375" height="812"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_X_XS_11" data-name="iPhone X/XS – 11" clip-path="url(#clip-iPhone_X_XS_11)">
+    <rect width="375" height="812" fill="#fff"/>
+    <rect id="Rectángulo_117" data-name="Rectángulo 117" width="26" height="4" rx="2" transform="translate(13 18)" fill="#fff"/>
+    <rect id="Rectángulo_118" data-name="Rectángulo 118" width="13" height="4" rx="2" transform="translate(13 25)" fill="#fff"/>
+    <rect id="Rectángulo_119" data-name="Rectángulo 119" width="22" height="4" rx="2" transform="translate(13 32)" fill="#fff"/>
+    <g id="Capa_2" data-name="Capa 2" transform="translate(96.924 278.333)">
+      <g id="Capa_1" data-name="Capa 1" transform="translate(0 0)">
+        <path id="Trazado_21" data-name="Trazado 21" d="M158.216,82.19v62.833H147.34V82.19Z" transform="translate(-32.464 -18.109)"/>
+        <path id="Trazado_22" data-name="Trazado 22" d="M184.391,130.123c.717,5.458,5.458,9.442,13.215,9.442,4.046,0,9.356-1.559,11.866-4.132l7.017,8.218c-4.678,4.85-12.319,5.894-19.055,5.894-15.281,0-24.365-9.442-24.365-23.639,0-13.488,9.169-23.2,23.554-23.2,14.814,0,24.092,10.471,22.384,28.715Zm24.092-9.075c-.717-5.754-5.216-8.631-11.508-8.631-5.933,0-10.783,2.877-12.4,8.631Z" transform="translate(-38.133 -22.631)"/>
+        <path id="Trazado_23" data-name="Trazado 23" d="M111.6,103.854h9.761a.39.39,0,0,1,.4.39V149.1a.4.4,0,0,1-.39.39l-9.793.062a.4.4,0,0,1-.4-.374l-.249-6.089a.39.39,0,0,0-.717-.195c-2.916,4.428-9.169,6.58-13.738,6.666-13.137.086-22.852-8.007-22.852-23.577,0-15.289,10.136-23.3,23.125-23.211,5.458,0,10.736,2.339,13.488,6.237a.39.39,0,0,0,.7-.211l.273-4.553a.382.382,0,0,1,.39-.39Zm-24.17,21.924c0,8.459,5.847,13.5,13.137,13.5,17.277,0,17.277-26.9,0-26.9-7.313,0-13.161,4.951-13.161,13.4Z" transform="translate(-16.221 -22.644)"/>
+        <path id="Trazado_24" data-name="Trazado 24" d="M104.993,0a11.789,11.789,0,0,1,7.485,2.666h.047l1.63,1.637v.039l3.54,3.54L144.015,34.2h.047l1.559,1.606.039.039a11.835,11.835,0,0,1-9.13,19.343H73.455a11.835,11.835,0,0,1-9.161-19.328l1.684-1.676,2.659-2.666L95.832,4.343l1.684-1.676A11.765,11.765,0,0,1,104.993,0Z" transform="translate(-13.577 0)" fill="#ff1d25"/>
+        <path id="Trazado_25" data-name="Trazado 25" d="M48.059,82.12v62.786H37.814l-.717-6.1c-3.415,5.294-8.9,7.095-14.283,7.095C9.793,145.9,0,137.274,0,122.725c0-15.274,9.613-23.179,22.548-23.179,4.678,0,11.944,2.518,14.549,7.095V82.12Zm-37.1,40.6c0,7.719,5.567,13.02,12.568,13.02s12.849-5.029,12.849-13.02A12.638,12.638,0,0,0,23.53,109.79C16.529,109.79,10.962,114.726,10.962,122.725Z" transform="translate(0 -18.094)"/>
+      </g>
+    </g>
+    <g id="Rectángulo_127" data-name="Rectángulo 127" transform="translate(117 657)" fill="#fff" stroke="#ff1d25" stroke-width="2">
+      <rect width="141" height="45" rx="22.5" stroke="none"/>
+      <rect x="1" y="1" width="139" height="43" rx="21.5" fill="none"/>
+    </g>
+    <text id="Dale" transform="translate(163 686)" font-size="23" font-family="NexaBold, Nexa"><tspan x="0" y="0">Dale</tspan></text>
+    <line id="Línea_19" data-name="Línea 19" x1="7.07" y1="7.07" transform="translate(237.233 672)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+    <line id="Línea_21" data-name="Línea 21" x1="7.07" y2="7.07" transform="translate(237.233 679.07)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+    <rect id="Rectángulo_172" data-name="Rectángulo 172" width="111" height="111" rx="55.5" transform="translate(-55 -55)" fill="#ff1d25"/>
+    <rect id="Rectángulo_179" data-name="Rectángulo 179" width="91" height="91" rx="45.5" transform="translate(97 428)" fill="#ffcecf"/>
+    <rect id="Rectángulo_180" data-name="Rectángulo 180" width="91" height="91" rx="45.5" transform="translate(188 428)" fill="#ffcecf"/>
+    <rect id="Rectángulo_175" data-name="Rectángulo 175" width="111" height="111" rx="55.5" transform="translate(283 686)" fill="#ff1d25"/>
+    <rect id="Rectángulo_173" data-name="Rectángulo 173" width="127" height="127" rx="63.5" transform="translate(312 95)" fill="#47a3a6"/>
+    <rect id="Rectángulo_176" data-name="Rectángulo 176" width="45" height="45" rx="22.5" transform="translate(95 159)" fill="#47a3a6"/>
+    <rect id="Rectángulo_174" data-name="Rectángulo 174" width="146" height="146" rx="73" transform="translate(-73 739)" fill="#47a3a6"/>
+  </g>
+</svg>

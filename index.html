@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="css/log.css">
     <title>Dale</title>
 </head>
-<body bgcolor="#F2F2F2" class="body">
+<body bgcolor="#F2F2F2" class="body"  onscroll="showHeaderBar()">
     <header class="header">
         <a href="index.html" class="logoIndex"><img src="img/icon.svg" alt="" height="45px" width="45px"></a>
         <div class="links">
-            <a href="">Explorar</a>
+            <a href="app.html">Explorar</a>
             <a href="#contacto">Contacto</a>
             <a href="SingIn.html">Login</a>
             <a class="singUp" href="singUp.html" style="color: white;">Sign Up</a>
@@ -37,7 +37,8 @@
             
         </div>
     </header>
-    <center><h1>La mercadería que necesitas <br>
+    <!--Web Version-->
+    <div class="web"><center><h1>La mercadería que necesitas <br>
         a la puerta de tu casa</h1></center>
         <center class="img1"><img src="img/img1.svg" alt="" style="margin: 0 25%;"></center>
         <center ><a href="#first2"><img src="img/arrow.svg" alt="" class="arrow"></a></center> <!--Flecha abajo-->
@@ -97,21 +98,35 @@
         <div class="circles"></div>
         <div class="circles"></div>
     </div>
-    <div class="footer" id="contacto">
-        <div class="redes">
-            <div class="red"><i class="fab fa-facebook"></i></div>
-            <div class="red"><i class="fab fa-instagram"></i></div>
-            <div class="red"><i class="fas fa-envelope"></i></div>
-            <div class="red"><i class="fab fa-twitter"></i></div>
-        </div> <!--redes-->
-        <div class="directions">
-           <p>Lorem ipsum dolor sit amet conusandae explicabo at cum ream laborum iste facilis.</p> <!--direccion-->
-           <p>Design by <br> @martnpz <a href=""><img src="img/martnpz.svg" alt="" width="50px"></a></p>
-           <p>Lorem ipsum dolor sit amet consectem suscipit, sed eligendi, voluptate qui laudquam voluptate!</p> <!--informacion--> 
-        </div>
+</div> <!--End Web Version-->
+<!--Mobile version-->
+<div id="mobile">
+    <article>
+        <h1>Pedilo y listo</h1>
+        <h1>Pedilo y listo</h1>
+        <h1>Pedilo y listo</h1>
+        <h1>Pedilo y listo</h1>
+        <section>
+            <div></div>
+        </section>
+    </article>
+</div> <!--End Moble Version-->
+<div class="footer" id="contacto"> <!--Footer-->
+    <div class="redes">
+        <div class="red"><i class="fab fa-facebook"></i></div>
+        <div class="red"><i class="fab fa-instagram"></i></div>
+        <div class="red"><i class="fas fa-envelope"></i></div>
+        <div class="red"><i class="fab fa-twitter"></i></div>
+    </div> <!--redes-->
+    <div class="directions">
+       <p>Lorem ipsum dolor sit amet conusandae explicabo at cum ream laborum iste facilis.</p> <!--direccion-->
+       <p>Design by <br> @martnpz <a href=""><img src="img/martnpz.svg" alt="" width="50px"></a></p>
+       <p>Lorem ipsum dolor sit amet consectem suscipit, sed eligendi, voluptate qui laudquam voluptate!</p> <!--informacion--> 
     </div>
+</div>
 
-    <script src="app.js"></script>
+<!--Scripts-->
+<script src="app.js"></script>
 </body>
 </body>
 </html>
