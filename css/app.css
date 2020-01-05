@@ -11,16 +11,22 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
     font-family: nexaBold;
     text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
 }
 
 .header{
     z-index: 1;
     height: 50px;
     width: 100%;
-    background: #FF1D25;
     position: fixed;
     top: 0;
     display: flex;
@@ -163,14 +169,14 @@ pre{
 }
 
 .banner{
-    margin-top: 50px;
     width: 100%;
     max-height: 350px;
 }
 
 .title1{
-    margin: 2% 0 5% 5%;
+    margin: 2% 0 1% 5%;
     font-size: 1.1em;
+    font-family: nexaBold;
 }
 
 .sugerencia{
@@ -186,23 +192,40 @@ pre{
 }
 
 .sugerenciaCaja{
+    color: #47A3A6;
     cursor: pointer;
-    font-size: 1em;
+    font-size: .8em;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family: nexaLight;
+    font-family: nexaBold;
     margin: 0 10px 0 10px;
     width: 150px;
-    height: 22px;
+    height: 26px;
     border-radius: 100px;
     background: white;
     border: 2px solid #47A3A6;
 }
 
+.select-commerce{
+    text-align: center;
+    height: 20px;
+    width: 60vw;
+    max-width: 200px;
+    background: #ECECEC;
+    color: #636363;
+    font-size: .8em;
+    border-radius: 100px;
+    margin: 5% 0 5% 0;
+}
+
+.select-commerce span{
+    color: #FF1D25;
+}
+
 .product{
-    margin-top: 10%;
+    margin-top: 2%;
     width: 100%;
     padding: 0 2%;
     display: flex;
@@ -222,7 +245,6 @@ pre{
 
 .textContent{
     z-index: 0;
-    display: inline-flex;
     flex-direction: column;
     position: relative;
     justify-content: center;
@@ -237,6 +259,7 @@ pre{
     display: inline-block;
     font-size: 0.9em;
     font-family: nexaLight;
+    color: #858484;
 }
 
 .article img{
@@ -246,7 +269,7 @@ pre{
 .cargar{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-align: center;
     float: right;
     width: 30%;
@@ -259,4 +282,170 @@ pre{
 .cargar p{
     cursor: auto;
     color: #16B80A;
+    margin: 0;
+    font-size: .9em;
+}
+
+.more{
+    width: 100%;
+    margin: 5% 0 5% 0;
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+}
+
+.more a{
+    padding: 0 6px 0 6px;
+    width: fit-content;
+    border-radius: 100px;
+    background: #ECECEC;
+    text-align: center;
+    font-size: 1em;
+    color: black;
+}
+
+.combo{
+    margin: 8% 0 1% 5%;
+    font-size: 1.1em;
+    font-family: nexaBold;
+}
+
+.combos{
+    display: inline-flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    display: block ruby;
+    display: -webkit-box;
+}
+
+.combos::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.combo-box{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3% 0 3%;
+    width: 230px;
+    height: 280px;
+    border-radius: 16px;
+    background: #F5F5F5;
+}
+
+.box-text{
+    width: 100%;
+    padding: 5% 0 0 5%;
+}
+
+.box-text h3{
+    font-size: 1em;
+}
+
+.box-text p{
+    font-size: .8em;
+    color: #A2A2A2;
+    margin-bottom: 0;
+}
+
+.combo-box a{
+    border: 3px solid #FF1D25;
+    color: #FF1D25;
+    font-size: 1em;
+    height: 30px;
+    width: 60px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    float: right;
+    margin: 0 10px 0 0;
+}
+
+.listo-text{
+    margin: 8% 0 1% 5%;
+    font-size: 1.1em;
+    font-family: nexaBold;
+}
+
+.listo-para{
+    display: inline-flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    display: block ruby;
+    display: -webkit-box;
+}
+
+.listo-para::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.listo-para-box{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    margin: 0 3% 0 3%;
+    width: 260px;
+    height: 110px;
+    border-radius: 16px;
+    background: #36B96A;
+    padding: 0 0 0 2%;
+}
+
+.listo-para-box h3{
+    padding: 5% 0 0 5%;
+    float: left;
+    font-size: 1em;
+    opacity: 80%;
+    color: white;
+    margin: 0;
+}
+
+.listo-arrgelo{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.listo-para-box a{
+    display: flex;
+    justify-content: center;
+    float: right;
+    color: white;
+    background: #FF1D25;
+    border-radius: 100px;
+    width: 60px;
+    height: 30px;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.yo{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.yo h1{
+    font-size: 1.3em;
+    color: #A2A2A2;
+}
+
+.yo a{
+    color: #17D065;
+    font-size: 1.2em;
+}
+
+.yo img{
+    border-radius: 50%;
+    width: 2.4em;
 }

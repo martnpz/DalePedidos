@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="233" viewBox="0 0 375 233">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffe5cf"/>
+      <stop offset="0.958" stop-color="#9ea209"/>
+      <stop offset="1" stop-color="#9a9f00"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_176" data-name="Grupo 176" transform="translate(345 42)">
+    <g id="Grupo_173" data-name="Grupo 173" transform="translate(-345 -94.667)">
+      <rect id="Rectángulo_120" data-name="Rectángulo 120" width="375" height="233" transform="translate(375 285.667) rotate(180)" fill="url(#linear-gradient)"/>
+      <text id="BANNER_HOT_SALE" data-name="BANNER HOT SALE" transform="translate(95 175.667)" fill="#fff" font-size="20" font-family="NexaBold, Nexa"><tspan x="0" y="0">BANNER HOT SALE</tspan></text>
+    </g>
+    <rect id="Rectángulo_270" data-name="Rectángulo 270" width="127" height="127" rx="63.5" transform="translate(-337 -20)" fill="#9ba001" opacity="0.32"/>
+    <rect id="Rectángulo_271" data-name="Rectángulo 271" width="94" height="94" rx="47" transform="translate(-80 88)" fill="#ffe5ce" opacity="0.32"/>
+  </g>
+</svg>
