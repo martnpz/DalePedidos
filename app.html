@@ -13,8 +13,17 @@
     <link rel="stylesheet" href="css/app.css">
     <title>Dale</title>
 </head>
-<body>
-    <header class="header">
+<body id="body">
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.6.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.6.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+    <header id="header" class="header">
         <div id="hamburgerMenu">
             <a id="menuOpen">
                 <span></span>
@@ -24,22 +33,24 @@
             <nav id="menuDeploy">
                 <div class="perfil">
                     <img src="img/perfil.svg" alt="">
-                    <p class="perfilP1">Nombre y Apellido</p>
-                    <p class="perfilP2">Id: #######</p>
-                    <div class="editPerfil"><button>Editar Perfil</button></div>
+                    <p class="perfilP1">Names</p>
+                    <!-- <p class="perfilP2">Id: #######</p> -->
+                    <div class="editPerfil"><button>Edit profile</button></div>
                 </div>
                 <ul id="hamburgerLinks">
-                    <a href=""><img src="img/AuxIcon.svg" alt=""> Productos <img src="img/arrow right.svg" alt=""></a>
-                    <a href=""><img src="img/AuxIcon.svg" alt=""> Carrito <img src="img/arrow right.svg" alt=""></a>
-                    <a href=""><img src="img/AuxIcon.svg" alt=""> Consumos <img src="img/arrow right.svg" alt=""></a>
-                    <a href=""><img src="img/AuxIcon.svg" alt=""> Configuracion <img src="img/arrow right.svg" alt=""></a>
+                    <a href=""><img src="img/AuxIcon.svg" alt="" width="30px"> Productos <img src="img/arrow right.svg" alt=""></a>
+                    <a href=""><img src="img/AuxIcon.svg" alt="" width="30px"> Carrito <img src="img/arrow right.svg" alt=""></a>
+                    <a href=""><img src="img/AuxIcon.svg" alt="" width="30px"> Consumos <img src="img/arrow right.svg" alt=""></a>
+                    <a href=""><img src="img/AuxIcon.svg" alt="" width="30px"> Configuracion <img src="img/arrow right.svg" alt=""></a>
                 </ul>
+                    <div class="contact">Contact</div>
+                    <div class="about">About</div>
             </nav>
             <div class="backMenu" id="backMenu"></div>
         </div>
         <div style="float: right; display: flex; align-items: center; margin: 0 4%;">
-            <div class="search"><img src="img/search.svg" alt="" width="20px"></div>
-            <div class="carrito"><img src="img/carrito.svg" alt="" width="25px"></div>
+            <div class="search"><figure style="margin: 0;"><img src="img/search.svg" alt="" width="20px"></div></figure>
+            <div class="carrito"><figure style="margin: 0;"><img src="img/carrito.svg" alt="" width="25px"></div></figure>
         </div>
     </header>
     <!--banner-->
@@ -64,10 +75,28 @@
         <div class="sugerenciaCaja">Potato bag</div>
         <div class="sugerenciaCaja">Yogurt</div>
     </div>
-    <div style="width: 100%; display: flex; justify-content: center;"><div class="select-commerce">Commerce <span>El Remanso</span></div></div>
+    <div style="width: 100%; display: flex; justify-content: center;">
+        <div class="select-commerce">Commerce <span>El Remanso</span></div>
+    </div>
     <section> <!--Producto-->
-        <div class="product">
-            <a href="" class="article">  <!--Imagen-->
+        <div class="product" id="productBox">
+            <div id="product" href="" class="article">  <!--Imagen-->
+                <img src="img/producto.png" alt="" width="100px"> <!--Titulo-->
+                <div class="textContent">
+                <h1>Product</h1>
+                <p>Lorem ipsum dolor, 
+                    sit amet consectetur adipisicing 
+                    elit. 
+                </p>
+                </div>
+            </div> <!--Cargar-->
+            <div class="cargar">
+                <div class="cargarButtom"><img src="img/cargar.svg" alt=""></div>
+                <p class="price">999,99$</p>
+            </div>
+        </div>
+        <div class="product" id="product">
+            <div href="" class="article">  <!--Imagen-->
                 <img src="img/producto.png" alt=""> <!--Titulo-->
                 <div class="textContent">
                 <h1>Product</h1>
@@ -76,7 +105,7 @@
                     elit. 
                 </p>
                 </div>
-            </a> <!--Cargar-->
+            </div> <!--Cargar-->
             <div class="cargar">
                 <div class="cargarButtom"><img src="img/cargar.svg" alt=""></div>
                 <p class="price">999,99$</p>
@@ -146,23 +175,7 @@
                 <p class="price">999,99$</p>
             </div>
         </div>
-        <div class="product">
-            <a href="" class="article">  <!--Imagen-->
-                <img src="img/producto.png" alt=""> <!--Titulo-->
-                <div class="textContent">
-                <h1>Product</h1>
-                <p>Lorem ipsum dolor, 
-                    sit amet consectetur adipisicing 
-                    elit. 
-                </p>
-                </div>
-            </a> <!--Cargar-->
-            <div class="cargar">
-                <div class="cargarButtom"><img src="img/cargar.svg" alt=""></div>
-                <p class="price">999,99$</p>
-            </div>
-        </div>
-        <div class="more"><a href="">More</a></div>
+        <div class="more" id="product"><a href="">More</a></div>
     </section>
     <section>
         <div class="combo">Combos</div>
