@@ -67,6 +67,10 @@ pre{
     width: 25px;
 }
 
+.arrow-left, .arrow-right {
+    display: none;
+}
+
 .perfil{
     display: flex;
     align-items: center;
@@ -259,6 +263,7 @@ pre{
     width: 70%;
     height: 100px;
     display: flex;
+    flex-direction: row-reverse;
     cursor: pointer;
     transition: .3s cubic-bezier(0.26, 1, 0.6, 1.17);
 }
@@ -326,25 +331,86 @@ pre{
     justify-content: center;
 }
 
-.productExpand img {
-    position: absolute;
-    top: 20%;
-    width: 180px;
+.productExpand .article-content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 92%;
+    height: fit-content;
+    top: 18%;
+}
 
+.productExpand .arrow-left {
+    display: block;
+    background-image: url(/img/arrow-left.svg);
+    width: 20px;
+    height: 20px;
+}
+
+.productExpand .arrow-right {
+    display: block;
+    background: red;
+    
+    border-radius: 10px;
+}
+
+.productExpand img {
+    width: 180px;
 }
 
 .productExpand h1{
-    position: absolute;
+    position: fixed;
     top: 10%;
     width: 100%;
     text-align: center;
     font-size: 1.4em;
+    right: 0;
 }
 
 .productExpand .textContent{
+    width: 92%;
+    height: fit-content;
+    top: 60%;
     display: flex;
+    position: absolute;
 }
 
+.productBox .cargar {
+    transition: .3s cubic-bezier(0.26, 1, 0.6, 1.17);
+    z-index: 3;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productBox .cargarButtom {
+    background: #47A3A6;
+    border-radius: 100px;
+    width: 80%;
+    height: 50px;
+}
+
+.productBox .price {
+    color: rgb(255, 255, 255);
+    font-size: 1.4em;
+    position: absolute;
+}
+
+.productBox .price {
+    visibility: hidden;
+}
+
+.productBox .price:before{
+    visibility: visible;
+    content: 'Cargar';
+    padding: 0 0 0 100px;
+}
 
 .productBox{
     margin: 0;
